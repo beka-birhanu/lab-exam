@@ -1,0 +1,44 @@
+<html>
+
+<body>
+  <h1>Your trusted bookstore</h1>
+  <form action="register" method="post">
+    <!-- Book author -->
+    <label for="author">Author:</label>
+    <input type="text" id="author" name="author" placeholder="Enter book's author" required />
+
+    <!-- Book title -->
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title" placeholder="Enter book's title" required />
+
+    <!-- Price -->
+    <label for="price">Price:</label>
+    <input type="double" id="price" name="price" required />
+
+    <!-- Submit Button -->
+    <button type="submit">Register Book</button>
+  </form>
+
+  <br />
+  <a href="displayBooks">View All Books</a>
+  <br />
+  <form action="deleteBook" method="post">
+    <!-- Book ID -->
+    <label for="bookId">Book ID:</label>
+    <input type="int" id="bookId" name="bookId" placeholder="Enter Book ID to delete" required />
+
+    <!-- Submit Button -->
+    <button type="submit">Delete Book</button>
+  </form>
+
+  <form action="searchBooks" method="get">
+    <!-- Search Description -->
+    <label for="title">Search Title:</label>
+    <input type="text" id="title" name="title" placeholder="Enter title to search" required />
+
+    <!-- Submit Button -->
+    <button type="submit">Search Books</button>
+  </form>
+</body>
+
+</html>

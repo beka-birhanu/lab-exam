@@ -1,0 +1,7 @@
+com/onlineBookstore/AppConfig.class
+com/onlineBookstore/DisplayBooksServlet.class
+com/onlineBookstore/BookRegistrationServlet.class
+com/onlineBookstore/DeleteBookServlet.class
+com/onlineBookstore/SearchBookServlet.class
+com/onlineBookstore/DBConnectionManager.class
+com/onlineBookstore/IDBConnectionManager.class
